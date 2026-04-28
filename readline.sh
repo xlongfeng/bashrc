@@ -18,3 +18,6 @@ bind '"\C-s": forward-search-history'
 # Bind Ctrl+P / Ctrl+N to history search backward/forward
 bind '"\C-p": history-search-backward'
 bind '"\C-n": history-search-forward'
+
+# Disable bell
+bind 'set bell-style none'
