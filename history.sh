@@ -14,3 +14,7 @@ shopt -s histappend
 # Enable Ctrl+S for forward history search (disable terminal flow control)
 stty -ixon
 bind '"\C-s": forward-search-history'
+
+# Bind Ctrl+P / Ctrl+N to history search backward/forward
+bind '"\C-p": history-search-backward'
+bind '"\C-n": history-search-forward'
